@@ -10,7 +10,6 @@
             background-color: white;
             font-family: Arial, sans-serif;
         }
-
         * {
             margin: 0;
             padding: 0;
@@ -77,7 +76,7 @@
             width: 212px;
             margin: 16% auto;
             margin-top: 100px;
-            padding: 75px;
+            padding: 76px;
             border-radius: 10%;
             padding-top: 70px;
             box-shadow: 3px 3px red, -1em 0 .4em olive;
