@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header ul {
+            background-color: white;
+            height: 40px;
+            text-align: end;
+            padding-right: 20px;
+            padding-top: 15px;
+            display: flex;
+            justify-content: flex-end;
+            box-shadow: 3px 3px rgb(104, 98, 98), -1em 0 .4em olive;
+        }
+
+        li:hover {
+            cursor: pointer;
+            opacity: 0.5;
+
+        }
+
+        .con p {
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            width: 45px;
+            margin: 30% auto;
+            margin-bottom: 20px;
+
+        }
+
+        li {
+            display: inline;
+            margin-left: 1rem;
+            color: white;
+            text-decoration: solid;
+            font-weight: bold;
+        }
+
+        .con p a:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .con p a {
+            color: black;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        input[type="text"],
+        input[type="password"] {
+            padding: 6px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+        }
+        .con {
+            background-color: white;
+            height: 212px;
+            width: 212px;
+            margin: 16% auto;
+            margin-top: 100px;
+            padding: 75px;
+            border-radius: 10%;
+            padding-top: 70px;
+            box-shadow: 3px 3px red, -1em 0 .4em olive;
+        }
+
+        .for:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .for {
+            font-weight: 600;
+        }
+
+        .con label,
+        .con input {
+            margin-bottom: 30px;
+            margin: 15px auto;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        input {
+            box-sizing: border-box;
+        }
+        
+        .foot {
+            text-align: center;
+        }
+.foot:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+        header ul img:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        header ul img {
+            height: 30px;
+            width: 30px;
+            margin-right: auto;
+            margin-left: 20px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <img src="home.jpg">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </header>
+    <div class="con">
+       <label for="username">Username:</label>
+        <input type="text" id="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <div class="for">Forgot Password?</div>
+        <p><a href="system.html">Login</a></p>
+    </div>
+    <footer>
+        <div class="foot">
+            &copy;alexrahul9576@gmail.com
+        </div>
+    </footer>
+
+</body>
+
+</html>
